@@ -72,21 +72,52 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
   flex-direction: row-reverse;
-  margin-top: 100px;
-  text-align: ;
-
+  padding: 10px;
  }
  .button{
   padding:10px 20px;
   background-color: navy;
   color:white;
-  margin-left: 500px;
   border-radius: 10px 20px;
   border: none;
  }
+ .button:hover{
+  color: tomato;
+ }
+  
+
  .about{
   text-align: center;
   padding-top: 10px;
  }
+ .box{
+  width: 210px;
+  height: 300px;
+  box-shadow: 4px 4px 15px blue;
+   text-align: center;
+   padding: 20px;
+   color: ;
+   background-color: skyblue;
+ }
+ .icon-photo{
+  width: 80px;
+ 
+ }
+ .box-title{
+  padding: 10px;
+ }
+ .box-des{
+  padding: 10px;
+ }
+ .service-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 80vh;
+  background-color: #33D1FF;}
+  .footer{
+    text-align: center;
+    background-color: aqua;
+  }
+  
