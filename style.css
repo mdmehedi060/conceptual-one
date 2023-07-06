@@ -12,7 +12,7 @@
 
 }
 .logo-photo{
-  width: 100px;
+  width: 150px;
 }
 .manu{
   display: flex;
@@ -33,7 +33,60 @@
   justify-content: space-around;
   align-items: center;
   height: 100vh;
-  border: 2px solid #1D1663;
-  background-image: url("images\ \(1\).jpg");
-  linear grdient
+  /* border: 2px solid #1D1663; */
+  background-image: url("tushar.avif");
+  
+ }
+ .title{
+  font-size: 50px;
+  font-weight: bold;
+ }
+ .description{
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+ }
+ .btn{
+  padding:10px 20px;
+  background-color: navy;
+  color:white;
+  margin-left: 100px;
+  border-radius: 10px 20px;
+  border: none;
+ }
+ .btn:hover{
+  color: tomato;
+ }
+ .about-pra{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-left: 300px;
+  text-align: center;
+  margin-top: 50px;
+  padding: none;
+  
+ }
+ .about-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row-reverse;
+  margin-top: 100px;
+  text-align: ;
+
+ }
+ .button{
+  padding:10px 20px;
+  background-color: navy;
+  color:white;
+  margin-left: 500px;
+  border-radius: 10px 20px;
+  border: none;
+ }
+ .about{
+  text-align: center;
+  padding-top: 10px;
  }
